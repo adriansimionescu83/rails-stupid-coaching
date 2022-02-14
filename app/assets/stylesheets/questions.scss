@@ -1,0 +1,26 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+p {
+  font-family: Roboto;
+}
+.answer {
+  font-size: large;
+  background-color: rgb(255, 255, 225);
+  margin: 4px 0 4px 0;
+  border-left: 7px solid rgb(168, 166, 166);
+  padding-left: 10px;
+  p:last-child {
+    font-style: italic;
+  }
+  p:first-child {
+    font-weight: bold;
+  }
+}
+
+.question {
+  font-size: large;
+  margin: 4px 0 4px 0;
+  border-left: 7px solid rgb(168, 166, 166);
+  padding-left: 10px;
+}
